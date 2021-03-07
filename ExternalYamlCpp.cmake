@@ -23,3 +23,6 @@ ExternalProject_Add(YAML_CPP_EXTERNAL_PROJECT
                     )
 
 link_directories(${YAML_CPP_LIB_DIR})
+
+#Set this var to make the linking similar to linking via an external install of yaml-cpp
+set (YAML_CPP_LIBRARIES yaml-cpp)

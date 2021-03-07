@@ -22,4 +22,4 @@ if (NOT ${yaml-cpp_FOUND})
     add_dependencies(sample_program YAML_CPP_EXTERNAL_PROJECT)
 endif()
 
-target_link_libraries(sample_program yaml-cpp)
+target_link_libraries(sample_program ${YAML_CPP_LIBRARIES})
