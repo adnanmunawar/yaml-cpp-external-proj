@@ -1,0 +1,3 @@
+apple: 'bottom'
+jeans: [1,2,3,4,5]
+purr: {apple: 'bottom', jeans: 'pur'}
